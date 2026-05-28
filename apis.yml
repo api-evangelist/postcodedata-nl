@@ -1,0 +1,32 @@
+aid: postcodedata-nl
+name: PostcodeData.nl
+description: "Provide geolocation data based on postcode for Dutch addresses"
+url: http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: PostcodeData.nl
+    description: "Provide geolocation data based on postcode for Dutch addresses"
+    humanURL: http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json
+    baseURL: http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json
+common:
+  - type: Website
+    url: http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
